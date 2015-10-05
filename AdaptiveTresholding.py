@@ -5,7 +5,7 @@ from PIL import Image
 import scipy.misc
 import datetime
 
-pathToTestImages = r"C:\Users\Davydov\PycharmProjects\helloworld\Test images"
+pathToTestImages = r"Test images"
 pathToUpdatedImages = pathToTestImages + "\\AdaptiveThresholding\\" + datetime.datetime.utcnow().strftime("%m%d%H%M%S")
 
 if not path.exists(pathToUpdatedImages):
